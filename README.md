@@ -1,27 +1,26 @@
-# Hola, soy Antonio Martínez Alemán
+# Hello, I'm Antonio Martínez Alemán
 
-Estudiante de Ingeniería Informática e interesado en programación, sistemas y tecnología.  
-Aprendo por mi cuenta y me gusta trabajar de forma estructurada, con repositorios claros y proyectos bien documentados.
-
----
-
-## Áreas en las que estoy trabajando
-- C++ y programación orientada a objetos
-- Programación en Git y control de versiones
-- Python para scripting y análisis
-- Ruby para desarrollo y automatización
-- Assembly y programación a bajo nivel
-- Linux, terminal y administración básica de sistemas
+Computer Engineering student interested in programming, systems, and technology.  
+I am self-taught and enjoy working in a structured way, with clear repositories and well-documented projects.
 
 ---
 
-## En lo que estoy centrado ahora
-- Mejorar mi manejo de estructuras de datos y algoritmos
-- Profundizar en diseño y análisis de programas complejos
-- Aprender técnicas y herramientas que mejoren mi flujo de trabajo
+## Areas I am currently working on
+- C++ and object-oriented programming
+- Git and version control workflows
+- Python for scripting and analysis
+- Ruby for development and automation
+- Assembly and low-level programming
+- Linux, terminal usage, and basic system administration
 
 ---
 
-## Contacto
-tony.martinezaleman@gmail.com  
-GitHub: @AntonioMartinezAleman
+## What I am focusing on right now
+- Improving my understanding of data structures and algorithms
+- Deepening my skills in program design and analysis
+- Learning tools and techniques that enhance my development workflow
+
+---
+
+## Contact
+tony.martinezaleman@gmail.com
