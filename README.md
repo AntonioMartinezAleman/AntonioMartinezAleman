@@ -5,7 +5,7 @@ I'm interested in **systems, security and low-level programming**: I like knowin
 
 - 🔐 Currently focused on **applied cryptography** and network security
 - 🐧 Comfortable on **Linux**, the terminal and Bash scripting
-- 🧠 Exploring **AI**: search algorithms, logic programming and machine learning
+- 🧠 Building **applied machine learning** projects: forecasting, model validation and deployment
 - 📫 Reach me at **tony.martinezaleman@gmail.com**
 
 ---
@@ -34,6 +34,7 @@ I'm interested in **systems, security and low-level programming**: I like knowin
 
 | Project | What it is | Stack |
 |---------|-----------|-------|
+| 🌊 [**Surf Tenerife**](https://github.com/AntonioMartinezAleman/surf-tenerife) | Surf forecast web app with an **ML model that corrects wave-height forecasts** (−9.7% error on unseen months). Gradient boosting with time-blocked cross-validation, exported to JSON and served from a **Cloudflare Worker** | Python, scikit-learn, JavaScript |
 | 🔐 [**Computer Systems Security**](https://github.com/AntonioMartinezAleman/Seguridad-en-Sistemas-Informaticos) | From-scratch implementations of **AES (+CBC), ChaCha20, SNOW 3G, RSA, digital signatures, elliptic-curve crypto, Diffie-Hellman** and a **BB84** quantum key distribution simulation | C++, Python |
 | 🐧 [**Operating Systems**](https://github.com/AntonioMartinezAleman/Sistemas-Operativos) | `netcp`, a UDP file-transfer tool built on POSIX sockets and signals, and `scdebug`, a Bash wrapper around `strace` for tracing system calls | C++, Bash |
 | 🤖 [**Artificial Intelligence**](https://github.com/AntonioMartinezAleman/Inteligencia-Artificial) | BFS/DFS graph search, **A\*** maze solver, Prolog knowledge bases and **k-means** clustering on Iris | C++, Prolog, Python |
