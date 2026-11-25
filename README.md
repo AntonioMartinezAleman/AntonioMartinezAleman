@@ -2,11 +2,11 @@
 
 **Computer Engineering student at the [University of La Laguna](https://www.ull.es)** (Tenerife, Spain).
 I like knowing how things work underneath, from logic gates and assembly up to operating systems and cryptography,
-and I like shipping real products: right now a **production forecasting platform** with machine learning, a serverless
+and I like shipping real products: right now a **production forecasting platform** with neural networks, machine learning, a serverless
 back end and a native iOS app.
 
 - 🌊 Building and running a **production ocean & weather forecasting platform** for the Canary Islands (private repo, demo on request)
-- 🧠 **Applied machine learning** validated against real measurements: buoys, weather stations, tide gauges
+- 🧠 **Neural networks & applied ML** validated against real measurements: buoys, weather stations, satellite imagery
 - 📱 **iOS development** with Xcode: Capacitor app, SwiftUI/WidgetKit widget, push notifications (APNs)
 - ☁️ **Serverless & edge**: Cloudflare Pages, Workers, KV and D1 (SQLite), CI/CD with GitHub Actions
 - 🔐 Background in **applied cryptography**, systems and network security
@@ -19,13 +19,14 @@ back end and a native iOS app.
 A surf and ocean forecasting product for the 8 Canary Islands (100+ locations), live on web and iPhone.
 
 - **Multi-model forecasts corrected in real time** with offshore buoys, coastal weather stations and tide gauges: wave error in southern Tenerife **46 → 16 cm**, 1–24 h wave error **−27 %**, live wind correction **−61 %** now-cast error, tide times **28 → 2 min**.
+- **Neural networks in production**: a fine-tuned **Chronos-2** time-series model (PyTorch + LoRA) corrects wave and wind forecasts every 6 h.
 - **Machine learning in production**: gradient-boosting buoy model with **conformal prediction intervals** (p10–p90 covers 80 % of measurements), trained in Python, exported to JSON and evaluated in JavaScript at the edge with exact parity; monthly automated retraining.
 - **~50 reproducible experiments** with written reports, including the ones that failed (e.g. a model that only learned to imitate the physics model, or terrain-based wind sheltering that did not hold up across 57 stations). Only what beats real measurements ships.
 - **Serverless architecture**: per-region computation to fit edge CPU limits, KV caching, D1 for accounts and alerts, scheduled workers with e-mail monitoring, strict CSP and rate limiting.
 - **Native iOS app** (Capacitor 8 + SwiftUI widget, XcodeGen): works **offline** from the beach, home and lock-screen widgets, native notifications sent over HTTP/2, over-the-air updates.
-- **Product details**: user accounts (magic link / one-time code), custom alerts, user-created spots with a coastline-analysis wizard, bilingual (ES/EN), WCAG 2.1 AA (0 axe violations), ~200 automated tests.
+- **Product details**: user accounts (magic link / one-time code, Sign in with Apple and Google), custom alerts, user-created spots with a coastline-analysis wizard, six languages, WCAG 2.1 AA (0 axe violations), ~380 automated tests.
 
-`Python` `scikit-learn` `pandas` `xarray` `JavaScript` `Cloudflare Workers / KV / D1` `SQL` `Swift / SwiftUI` `Xcode` `Capacitor` `GitHub Actions`
+`Python` `PyTorch` `scikit-learn` `pandas` `xarray` `JavaScript` `Cloudflare Workers / KV / D1` `SQL` `Swift / SwiftUI` `Xcode` `Capacitor` `GitHub Actions`
 
 ---
 
@@ -44,6 +45,8 @@ A surf and ocean forecasting product for the 8 Canary Islands (100+ locations), 
 ![Prolog](https://img.shields.io/badge/Prolog-E61B23?style=flat-square)
 
 **Machine learning & data**
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
